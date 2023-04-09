@@ -1,0 +1,107 @@
+.HomePage {
+    margin-top: 0;
+}
+
+.HeroSection {
+    margin-top: 8rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.SmallHeader {
+    color: #928b8b;
+    font-size: 1.1rem;
+}
+
+.BigHeader {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+
+.OptionBtn {
+    display: flex;
+    gap: 1rem;
+}
+
+.OptionBtn>button {
+    font-size: 1rem;
+    padding: 0.6em;
+    background: #ededed;
+    border: none;
+    border-radius: 0.2rem;
+    transition: all 0.2s;
+}
+
+
+
+.OptionBtn>button:first-child:hover {
+    background: rgb(123, 123, 236);
+    color: #fff;
+}
+
+.OptionBtn>button:last-child {
+    background: rgb(123, 123, 236);
+    color: #fff;
+}
+
+.OptionBtn>button:last-child:hover {
+    background: #ededed;
+    color: black;
+}
+
+
+
+.Image>img {
+    width: 50rem;
+
+}
+
+.QuerySection {
+    margin: 5rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+.QuerySection>.Question {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.SearchBar {
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.SearchBar>input {
+    width: 8rem;
+    padding: 0 0.5em;
+    font-size: 1rem;
+    border: 1px solid rgb(235, 232, 232);
+
+}
+
+.SearchBar>input:focus {
+    outline: 1px solid rgb(159, 156, 156);
+
+}
+
+
+
+.Search {
+    display: flex;
+    align-items: center;
+    background: rgb(123, 123, 236);
+    padding: 0.3em 1.5em;
+    cursor: pointer;
+}

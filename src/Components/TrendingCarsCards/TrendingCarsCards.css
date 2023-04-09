@@ -1,0 +1,52 @@
+.TrendingCarsCards {
+    text-transform: capitalize;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-radius: 0.4rem;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.TrendingCarsCards:hover {
+    transform: translateY(-8px);
+    background: rgb(203, 203, 233);
+
+}
+
+/*upto this over in styled compo*/
+.CardImage>img {
+    width: 18rem;
+    margin-bottom: 0.6em;
+}
+
+.CardTitle {
+    font-weight: bold;
+}
+
+.CardMilage {
+    font-size: 0.8rem;
+    margin-top: 0.3em;
+}
+
+.CardEngine {
+    font-weight: bold;
+    margin: 0.7em 0;
+    font-size: 0.8rem;
+}
+
+.CardPrice {
+    display: flex;
+    gap: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.Btn {
+    padding: 0.5em;
+    border-radius: 0.2rem;
+    font-weight: 500;
+}
+
+.PriceBtn {
+    color: rgb(76, 76, 207);
+    background: rgb(203, 203, 233);
+}

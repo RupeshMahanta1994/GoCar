@@ -1,0 +1,73 @@
+Link {
+    text-decoration: none;
+}
+
+.Navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 5em;
+    border-bottom: 1px solid #928b8b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: #fff;
+}
+
+.activ {
+    background: rgb(185, 185, 238);
+}
+
+.NavbarLogo {
+    font-size: 3rem;
+}
+
+.NavbarLogo>span {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(17, 17, 229);
+}
+
+.NavbarLinks {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.NavbarLink {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0.6em 1em;
+    color: black;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+
+
+}
+
+
+
+.NavbarLink:hover {
+    background: rgb(123, 123, 236);
+    color: #fff;
+}
+
+.NavbarBtn {
+    display: flex;
+    gap: 1rem;
+}
+
+.NavbarBtn>button {
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    padding: 0.8em 1.5em;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    background: rgb(123, 123, 236);
+    border: none;
+    cursor: pointer;
+}

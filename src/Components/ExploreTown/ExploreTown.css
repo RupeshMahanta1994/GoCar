@@ -1,0 +1,63 @@
+.ExploreTown {
+    background: rgb(245, 242, 236);
+    width: 100%;
+    padding: 5rem 8rem;
+    margin-bottom: 5em;
+}
+
+.Header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Tagline {
+    font-size: 0.9rem;
+    margin-top: 0.3em;
+}
+
+.Brands {
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5em;
+}
+
+.Brand {
+    display: flex;
+    align-items: center;
+
+    width: 40%;
+    padding: 0.5em;
+    transition: all 0.3s ease-in-out;
+}
+
+.Brand:hover {
+    transform: translateX(10px);
+}
+
+
+
+
+
+.Logo>img {
+    width: 50px;
+    margin-right: 1.5em;
+
+
+}
+
+.TextHead {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.Range {
+    font-size: 0.8rem;
+    margin-top: 0.3em;
+    color: #928b8b;
+}

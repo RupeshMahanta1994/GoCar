@@ -1,0 +1,41 @@
+.Footer {
+    width: 100%;
+    padding: 0 8rem;
+    margin-top: 1em;
+
+}
+
+.Container {
+    width: 100%;
+    background: rgb(245, 242, 236);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2em;
+    border-radius: 0.5rem;
+
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+}
+
+.Link:first-child {
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.Link {
+    font-size: 0.9rem;
+    color: #928b8b;
+    transition: all 0.3s ease-in-out;
+}
+
+.Link:hover {
+    color: black;
+    transform: translateX(5px);
+
+}
