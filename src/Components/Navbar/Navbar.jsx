@@ -1,5 +1,4 @@
 import "./Navbar.css"
-import LocalCarWashIcon from '@mui/icons-material/LocalCarWash';
 import { Link, Outlet } from "react-router-dom";
 import styled from "styled-components";
 
