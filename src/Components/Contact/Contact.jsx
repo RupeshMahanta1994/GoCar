@@ -5,10 +5,18 @@ import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 const Container = styled.div`
-    margin: 8rem;
+    margin: 8em;
     display: flex;
     gap: 5rem;
     padding: 3em;
+
+    @media only screen and (max-width: 480px) {
+        width: 100%;
+        margin: 0;
+        margin-top: 8em;
+        flex-direction: column;
+        padding: 1.2em;
+    }
 
 `
 
@@ -20,11 +28,20 @@ justify-content: flex-start;
 
 & h1{
     font-size: 3rem;
+    @media only screen and (max-width: 480px) {
+        font-size: 2.5rem;
+        text-align: center;
+    }
 }
 
 & p{
     font-size: 1rem;
     width: 25rem;
+    @media only screen and (max-width: 480px) {
+        font-size: 0.9rem;
+        width: 20rem;
+        text-align: center;
+    }
 }
 
 & a {
@@ -33,11 +50,20 @@ justify-content: flex-start;
     gap: 1rem;
     align-items: center;
     color: black;
+    @media only screen and (max-width: 480px) {
+        justify-content: center;
+    }
+    
+    
 }
+
+@media only screen and (max-width: 480px) {
+        width: 100%;
+    }
     
 `
 const ContainerForm = styled.div`
-width: 60%;
+width: 30rem;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -48,11 +74,19 @@ justify-content: flex-start;
     border: none;
     outline: none;
     background: #ededed;
+    @media only screen and (max-width: 480px) {
+        width: 100%;
+    }
+    
 }
 
 & label {
     font-weight: bold;
 }
+@media only screen and (max-width: 480px) {
+        width: 100%;
+    }
+    
 
 
     

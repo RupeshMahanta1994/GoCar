@@ -16,12 +16,25 @@ Link {
     background: #fff;
 }
 
+@media (max-width: 380px) {
+    .Navbar {
+        font-size: 1rem;
+    }
+}
+
+
 .activ {
     background: rgb(185, 185, 238);
 }
 
 .NavbarLogo {
     font-size: 3rem;
+}
+
+@media (max-width: 380px) {
+    .NavbarLogo>span {
+        font-size: 1rem;
+    }
 }
 
 .NavbarLogo>span {

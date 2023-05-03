@@ -2,23 +2,54 @@ import "./TrendingCarsCards.css"
 import car from "./1.png"
 import styled from "styled-components"
 
-function TrendingCarsCards({ color }) {
+const TrendingCarsCards1 = styled.div`
+text-transform: capitalize;
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-radius: 0.4rem;
+    transition: all 0.2s ease-in-out;
+
+&:hover{
+    transform: translateY(-8px);
+    background: rgb(203, 203, 233);
+}    
+
+
+& img {
+    width: 18rem;
+    margin-bottom: 0.6em;
+}
+& p:first-child {
+    font-weight: bold;
+}
+
+& p:nth-child(2){
+    font-size: 0.8rem;
+    margin-top: 0.3em;
+}
+
+@media only screen and (max-width: 480p) {
+    
+}
+
+
+`
+
+
+
+function TrendingCarsCards() {
 
     return (
         <>
-            <div className="TrendingCarsCards" >
-                <div className="CardImage">
-                    <img src={car} alt="" />
-                </div>
-                <div className="CardTitle">
+            <TrendingCarsCards1  >
+                <img src={car} alt="" />
+                <p>
                     used 2019 audi s4 premium plus
-                </div>
-                <div className="CardMilage">
+                </p>
+                <p>
                     11457 miles
-                </div>
-                <div className="CardEngine">
-                    AWD 4-cylinder turbo
-                </div>
+                </p>
+
                 <div className="CardPrice">
                     <div className="PriceBtn Btn">
                         $41,200
@@ -27,7 +58,7 @@ function TrendingCarsCards({ color }) {
                         best seller
                     </div>
                 </div>
-            </div>
+            </TrendingCarsCards1>
 
         </>
     )

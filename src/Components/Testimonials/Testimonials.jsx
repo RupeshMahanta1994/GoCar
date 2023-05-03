@@ -17,15 +17,23 @@ flex-direction: column;
 gap: 0.6rem;
 & h5 {
     font-size: 1.2rem;
+    
 }
 
 & h3 {
     font-size: 2.5rem;
+    @media only screen and (max-width: 480px) {
+     font-size   :2rem ;
+    }
 }
 & p{
     font-size: 1.1rem;
     width: 60%;
     line-height: 1.3rem;
+    @media only screen and (max-width: 480px) {
+        width: 18rem;
+        font-size: 1rem;
+    }
 }
 
 
@@ -37,6 +45,9 @@ gap: 1rem;
 align-items: center;
 justify-content: center;
 margin-top: 3em;
+@media only screen and (max-width: 480px) {
+        flex-direction: column;
+    }
 
 
 
@@ -51,7 +62,14 @@ gap: 1.5rem;
 box-shadow: 0px 0px 21px -9px rgba(0,0,0,0.75);
 & p {
     font-size: 1.4rem;
+
 }
+@media only screen and (max-width: 480px) {
+     width: 20rem;   
+    }
+    & p {
+        font-size: 1rem;
+    }
 `
 
 const User = styled.div`
@@ -69,6 +87,12 @@ const UserName = styled.div`
         width: 50px;
         height: 50px;
         border-radius: 50%;
+    }
+    @media only screen and (max-width: 480px) {
+     & img {
+        width: 30px;
+        height: 30px;
+     }   
     }
 `
 

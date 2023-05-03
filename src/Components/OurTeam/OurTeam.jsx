@@ -8,6 +8,11 @@ display: flex;
 justify-content: center;
 gap: 3rem;
 flex-wrap: wrap;
+@media only screen and (max-width: 480px) {
+        margin: 0;
+        margin-top: 8em;
+    
+    }
 
 `
 

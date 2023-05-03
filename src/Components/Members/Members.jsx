@@ -9,6 +9,10 @@ const Container = styled.div`
     gap: 1rem;
     flex-direction: column;
     align-items: center;
+    @media only screen and (max-width: 480px) {
+        height: 23rem;
+        width: 18rem;
+    }
 
     & img {
         height: 80%;

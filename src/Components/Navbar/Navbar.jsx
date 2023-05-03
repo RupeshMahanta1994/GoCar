@@ -9,6 +9,9 @@ color: rgb(37, 37, 229);
     &:hover{
         color: #fff;
     }
+    @media only screen and (max-width: 380px) {
+        display: none;
+    }
     
     
 `

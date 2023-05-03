@@ -6,6 +6,11 @@ import { LocalShipping, MapsHomeWork, Build } from '@mui/icons-material';
 const Wrapper = styled.div`
     margin-top: 8em;
     font-family: 'Roboto', sans-serif;
+    @media only screen and (max-width: 480px) {
+     margin   : 0;
+     margin-top: 8em;
+     padding: 0 1.5em;
+    }
 
 `;
 const Title = styled.div`
@@ -15,6 +20,16 @@ justify-content:flex-start;
 padding-left: 6em;
 font-size: 2rem;
 font-weight: 600;
+@media only screen and (max-width: 480px) {
+padding: 0;
+font-size: 1.3rem;
+margin-bottom: 1em;
+
+
+
+}
+
+
 
 `;
 
@@ -22,13 +37,23 @@ const Container = styled.div`
 width:100%;
 padding:4em 10em;
 display:flex;
-flex-direction: row;
+
 gap: 4rem;
+@media only screen and (max-width: 480px) {
+    flex-direction: column;
+    padding: 0;
+    }
 `
 const Image = styled.div`
     justify-content: flex-end;
 & img{
     width: 40rem;
+}
+@media only screen and (max-width: 480px) {
+& img {
+    width: 20rem;
+}
+
 }
 `
 const Text = styled.div`
@@ -39,6 +64,15 @@ text-align: left;
 & p {
     font-size: 1.1rem;
     margin: 1em 0;
+}
+@media only screen and (max-width: 480px) {
+& h2 {
+    font-size: 1.2rem;
+}
+& p {
+    font-size: 0.8rem;
+}
+
 }
 `
 const Details = styled.div`
@@ -51,7 +85,7 @@ const Item = styled.div`
 `
 const ItemText = styled.div`
 display:flex;
-align-item:center;
+align-items:center;
 
 & p {
     
