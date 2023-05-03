@@ -20,7 +20,7 @@ function Navbar() {
     return (
         <div className="Navbar active">
             <div className="NavbarLogo">
-                <span>Go</span><NavLink to="/"><LocalCarWashIcon style={{ color: 'rgb(54, 54, 238)', fontSize: '2.5rem' }} /></NavLink>
+                <span>GoCar</span>
             </div>
             <div className="NavbarLinks">
                 <div className="NavbarLink">
